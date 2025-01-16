@@ -1,0 +1,89 @@
+* { /*Regla 1*/
+    font-family: "Roboto", serif;;
+}
+
+body { /*Regla 2*/
+    margin: 0%;
+    padding: 0% 20%;
+}
+
+h1 { /*Regla 3*/
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+.selector { /*Regla 4*/
+    color: lightcyan;
+}
+
+.selectors { /*Regla 5*/
+    padding: 5%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+
+#universal { /*Regla 6*/
+    color: lightgoldenrodyellow;
+}
+
+h2.selector, h2#universal { /*Regla 7*/
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+span { /*Regla 8*/
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+li>a { /*Regla 9*/
+    text-decoration: none;
+}
+
+h3 { /*Regla 10*/
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+#gallery>div { /*Regla 11*/
+    width: 100%;
+}
+
+img{ /*Regla 12*/
+    width: 100%;
+    border: solid 1px darkcyan;
+    border-radius: 5px;
+}
+
+table { /*Regla 13*/
+    border: solid 1px rgb(182, 181, 181);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 31px;
+    border-collapse: collapse;
+}
+
+.filas{
+    background-color: rgb(229, 226, 226);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#tabla2{
+    padding: 3px;
+    border-radius: 1%;
+    border: solid 1px darkcyan;
+}
+
+
+.underline{
+    text-decoration: underline;
+font-style: italic;
+}
